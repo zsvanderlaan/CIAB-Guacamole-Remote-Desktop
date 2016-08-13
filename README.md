@@ -49,7 +49,7 @@ One restriction using the LXD containers that I have not overcome yet is in rega
 
 LXD containers also can be almost instantly "cloned" by a System Admin to create even more Remote Desktop Servers.   Unlike HW VMs (vmware, virtualbox, kvm etc) LXD containers utilize/share the Server/Host's Kernel and so take up very much less Compute/Memory resources than a HW VM.    With LXD you can often have 10-20X the number of "servers" configured for any specific Server/Host than you could using HW VMs.    Also, LXD can be used in Cloud Servers which generally is not possible with HW VM technologies. 
 
-So some might wonder about what possible use cases for the multiple Remote Desktop servers (Host, container1 and container2) might be.   A couple ides might be that each has different Linux software installed for different purposes such as for different User collaboration groups (Marketing vs Sales),  or in regards to schools Grade 5 versus Grade 12 students?  
+So some might wonder about what possible use cases for the multiple Remote Desktop servers (Host, container1 and container2) might be.   A couple ideas might be that each has different Linux software installed for different purposes such as for different User collaboration groups (Marketing vs Sales),  or in regards to schools Grade 5 versus Grade 12 students?  
 
 If you have the skills please feel free to help improve the above scripts & documentation/instructions in the **README.PDF** file.
 
